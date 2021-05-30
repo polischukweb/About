@@ -1,0 +1,103 @@
+@font-face {
+    font-family: PottaOne-Regular; 
+    src: url(fonts/PottaOne-Regular.ttf); 
+   }
+
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0 10%;
+}
+body :first-child {
+    margin: 10px 0;
+   }
+p{
+    font-family:PottaOne-Regular;
+    font-size: 1.5em;
+}
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+    }
+h1{
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: normal;
+    color: brown;
+    }
+img{
+    height:10%;
+    width:10%;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: brown;
+}
+.about{
+    text-indent:5%;
+}
+select{
+    margin: 10px 10px;
+    background-color: chocolate;
+}
+ul :first-child{
+    color: cornflowerblue;
+   }
+  
+ul {
+    list-style: none;
+}
+
+.custom-li {
+    position: relative;
+}
+.custom-li:before {
+  content: '';
+  background-image: url('curriculum-vitae.svg');
+  position: absolute;
+  width: 22px; height: 22px;
+  background-size: 22px 22px;
+  left: -22px; top: 1px;
+}
+ol :nth-child(2){
+color: crimson;
+}
+.text{
+    padding: 10px 10px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+.text:hover { 
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1); 
+        }
+.text:focus {
+            border: 5px solid #39c; 
+           }
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover{
+    color: darkgreen;
+}
+th{
+    text-align: center;
+    background-color: darkgrey;
+}
+td{
+    padding: 5px; 
+    border: 2px dotted green;
+}
+table{
+    border-collapse: collapse;
+}
+button{
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+button:hover{
+    opacity: 0.5292189
+    ;
+}
